@@ -5,22 +5,25 @@ var "myName";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
-var "favNum";
+var favNum(3);
 // #3 create a variable called 'lovesCode' and set it to true
 
 // CODE HERE
-var "lovesCode" = true;
+var lovesCode;
+lovesCode=true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 
 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-var me = "myName" + "favNum"; 
-// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to 
-your favorite number.v // HINT: Use a comparison operator
+var "me" 
+me = "myName" + "favNum";
+myName = "My name is Bryan" ;
+favNum = "and my favorite number is 3";
+// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number. // HINT: Use a comparison operator
 
 // CODE HERE
 var truFavNum;
-favNum = (truFavNum==favNum);
+trueFavNum = (truFavNum==favNum);
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. 
 If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
