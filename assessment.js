@@ -1,11 +1,11 @@
 // #1 create a variable called 'myName' and assign it to your name as a string
 
 // CODE HERE
-var "myName";
+let myName = "Ben";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
-var favNum(3);
+var favNum = 3;
 // #3 create a variable called 'lovesCode' and set it to true
 
 // CODE HERE
@@ -15,10 +15,8 @@ lovesCode=true;
 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-var "me" 
-me = "myName" + "favNum";
-myName = "My name is Bryan" ;
-favNum = "and my favorite number is 3";
+"my name is" + " " + myname + " " + "and my favorite number is" + " " + favNum ;
+
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number. // HINT: Use a comparison operator
 
 // CODE HERE
@@ -30,6 +28,7 @@ If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 // CODE HERE
 var notHakeem;
 myName !== "Hakeem Olajuwon";
+myName
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The 
 canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
